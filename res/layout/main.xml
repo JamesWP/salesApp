@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0sXs" 
+    	android:textSize="45dp"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	/>
+                     <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_weight="3"
+		>
+    <ToggleButton
+		android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="click me1"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btopc1"
+     	/>
+	 <ToggleButton
+		 android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="click me2"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btopc2"
+     	/>
+    <ToggleButton
+		android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="click me3"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btopc3"
+     	/>
+	                    </LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_weight="3"
+	>
+		<ToggleButton
+			android:layout_weight="1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:text="click me1"
+			android:textSize="20dp"
+			android:layout_gravity="center"
+			android:id="@+id/bmidc1"
+     	/>
+		<ToggleButton
+			android:layout_weight="1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:text="click me2"
+			android:textSize="20dp"
+			android:layout_gravity="center"
+			android:id="@+id/bmidc2"
+     	/>
+		<ToggleButton
+			android:layout_weight="1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:text="click me3"
+			android:textSize="20dp"
+			android:layout_gravity="center"
+			android:id="@+id/bmidc3"
+     	/>
+	</LinearLayout>					
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_weight="3"
+	>
+		<ToggleButton
+			android:layout_weight="1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:text="click me1"
+			android:textSize="20dp"
+			android:layout_gravity="center"
+			android:id="@+id/bbotc1"
+     	/>
+		<ToggleButton
+			android:layout_weight="1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:text="click me2"
+			android:textSize="20dp"
+			android:layout_gravity="center"
+			android:id="@+id/bbotc2"
+     	/>
+		<ToggleButton
+			android:layout_weight="1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:text="click me3"
+			android:textSize="20dp"
+			android:layout_gravity="center"
+			android:id="@+id/bbotc3"
+     	/>
+	</LinearLayout>	
+	
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_weight="3"
+	>
+		<ToggleButton
+			android:layout_weight="3"
+			android:layout_width="250dp"
+			android:layout_height="60dp"
+			android:text="Reset"
+			android:textSize="25dp"
+			android:layout_gravity="center"
+			android:id="@+id/bmr"
+     
+		
+     	/>
+	</LinearLayout>
+	
+	
+	
+</LinearLayout>
